@@ -34,8 +34,8 @@ const dataDashboard = [
   },
   {
     id: 4,
-    title: "Despesas",
-    quantity: "R$50,000",
+    title: "Lucros",
+    quantity: "R$105,000",
     icon: ChartPie,
   }
 ];

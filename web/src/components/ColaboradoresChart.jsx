@@ -136,8 +136,8 @@ const data = [
  
 const ColaboradoresChart = () => {
   return (
-    <div className="w-[500px] h-[500px] rounded-md bg-[#1A1A26] mt-10">
-      <h3 className="flex justify-center text-zinc-50">Gráfico de avaliação</h3>
+    <div className="w-[500px] h-auto rounded-md bg-[#1A1A26] mt-10">
+      <h3 className="flex justify-center mt-2 text-zinc-50">Gráfico de avaliação</h3>
       <ResponsiveLine
         data={data}
         margin={{ top: 50, right: 110, bottom: 50, left: 60 }}

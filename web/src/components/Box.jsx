@@ -2,7 +2,7 @@ import React from 'react'
 
 const Box = ({title, quantity, icon}) => {
   return (
-    <div className="bg-[#1A1A26] rounded-md w-[200px] h-[200px] items-center p-4 1">
+    <div className="bg-[#1A1A26] rounded-md w-[250px] h-[200px] items-center p-4 1">
         <div className="items-center">
         <div className="bg-[#04060D] w-[50px] h-[50px] flex justify-center text-zinc-50">
          <img className="w-[25px]" src={icon}  />

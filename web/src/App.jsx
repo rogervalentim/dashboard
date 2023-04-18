@@ -8,7 +8,7 @@ import "./styles/global.css";
 const App = () => {
   return (
     <div className="App">
-    <div className="h-[1300px] flex flex-col">
+    <div className="h-screen flex flex-col">
       <div className="flex flex-1">
         <aside className="w-60 bg-[#1A1A26] p-6">
           <Sidebar />
